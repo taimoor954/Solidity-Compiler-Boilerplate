@@ -8,4 +8,4 @@ const source = fs.readFileSync(inboxPath, "utf-8");
 console.log(inboxPath)
 
 module.exports =  solc.compile(source, 1).contracts[':Inbox']; //contract name, number of contract to deploy
-console.log(result);
+// console.log(result);
